@@ -1,7 +1,9 @@
 # Requirements
-* ngsCAT2 has been tested in Python3.6
+This instructions are for debian based linux distributions such as: Ubuntu, Linux mint, Lubuntu...  
 
--Python 3
+
+
+* **Python 3**
 
 * **pip3**
 ```
