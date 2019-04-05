@@ -1,3 +1,7 @@
+ngsCAT2: a tool to assess the efficiency of targeted enrichment sequencing
+=======================================
+
+
 # Requirements
 This instructions are for debian based linux distributions such as: Ubuntu, Linux mint, Lubuntu...  
 
