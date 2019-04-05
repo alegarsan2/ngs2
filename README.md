@@ -6,7 +6,7 @@ This instructions are for debian based linux distributions such as: Ubuntu, Linu
 * **Python 3**
 
 * **pip3**
-```
+```bash
 sudo apt-get -y install python3-pip
 
 ```
