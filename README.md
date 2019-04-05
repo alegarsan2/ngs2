@@ -6,22 +6,20 @@ ngsCAT2: a tool to assess the efficiency of targeted enrichment sequencing
 This instructions are for debian based linux distributions such as: Ubuntu, Linux mint, Lubuntu...  
 
 
-
-* **Python 3**
-
-* **pip3**
-```bash
-sudo apt-get -y install python3-pip
-
-```
-
 ## Python Packages Requirements
 
 All standard python packages required are specified in
 the `requirements.txt` and in `setup.py` files.
 
-## System requirements
+Requirements
+------------
 
+Python 3.5 or later to run ngsCAT2.
+
+In Ubuntu, Mint and Debian you can install Python 3 like this:
+
+    $ sudo apt-get install python3 python3-pip
+    
 - **Samtools**
 samtools 1.7 using htslib 1.7.2
 ```
