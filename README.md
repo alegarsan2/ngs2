@@ -26,20 +26,16 @@ sudo apt-get install samtools=1.7-1
 ```
 ## 
 
+## Installation
+For the installation of the tool just only run:
 
-
+```
+pip3 install git+https://github.com/alegarsan2/ngsCAT2@master
+```
 # Usage instruction
 
 # Update repositories
 apt-get update
 
 
-#apt-get install python2.7 # Uncomment this line if python is not installed. ngsCAT has been tested with python 2.6 and 2.7
 
-###################
-# Samtools
-###################
-# Some dependencies
-apt-get install zlibc zlib1g zlib1g-dev
-# Install samtools
-apt-get install samtools
