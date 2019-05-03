@@ -35,6 +35,39 @@ For the installation of the tool just only run:
 pip3 install git+https://github.com/alegarsan2/ngsCAT2@master
 ```
 # Usage instruction
+Usage: 	
+       	****************************************************************************************************************
+       	Task: Assesses capture performance in terms of sensibility, specificity and uniformity of the coverage.
+       	Output: An html report will be created at the path indicated with the --out option.
+       	*****************************************************************************************************************
+       	usage: ngscat2 --bams <filename> --bed <filename> --out <path> --annotation <filename> --reference <filename>  --tmp <path> --threads <integer>
+
+Options:
+  -h, --help            show this help message and exit
+  --bams=BAMS           Required. Comma separated list of bam files (2
+                        maximum). E.g.: --bams
+                        /home/user/bam1.sorted.bam,/home/user/bam2.sorted.bam
+  --bed=BED             Required. Full path to the bed file containing the
+                        target regions.
+  --out=OUTDIR          Required. Full path to the directory where results
+                        will be saved.
+  --reference=REFERENCE
+                        Optional. String indicating the path to a .fasta file
+                        containing the reference chromosomes. Default=None.
+  --annotation=ANNOTATION
+                        Optional. String indicating the path to a .bed file
+                        containing annotated regions . Default=None.
+  --coveragethrs=COVERAGETHRESHOLDS
+                        Optional. Comma separated list of real numbers (do not
+                        leave spaces between) indicating coverage thresholds
+                        to be used when calculating percentages of covered
+                        bases (first graph in the report).
+                        Default=1,5,10,20,30.
+  --tmp=TMP             Optional. String indicating the full path to a
+                        temporary directory where temporary files will be
+                        created. Default=/tmp/.
+  --threads=NTHREADS    Optional. Integer indicating the number of concurrent
+                        threads to launch. Default=cpu_count() - 1.
 
 # Update repositories
 apt-get update
