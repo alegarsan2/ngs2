@@ -71,8 +71,6 @@ Options:
   --threads=NTHREADS    Optional. Integer indicating the number of concurrent
                         threads to launch. Default=cpu_count() - 1.
 ```
-# Update repositories
-apt-get update
 
 
 
