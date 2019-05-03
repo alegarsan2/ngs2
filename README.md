@@ -35,6 +35,8 @@ For the installation of the tool just only run:
 pip3 install git+https://github.com/alegarsan2/ngsCAT2@master
 ```
 # Usage instruction
+
+```
 Usage: 	
        	****************************************************************************************************************
        	Task: Assesses capture performance in terms of sensibility, specificity and uniformity of the coverage.
@@ -68,7 +70,7 @@ Options:
                         created. Default=/tmp/.
   --threads=NTHREADS    Optional. Integer indicating the number of concurrent
                         threads to launch. Default=cpu_count() - 1.
-
+```
 # Update repositories
 apt-get update
 
